@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>📢 Brgy Balita - Plaridel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📢 Brgy Balita - Plaridel</h1>
+    </header>
+
+    <section class="card">
+      <label for="brgySelect"><strong>🏘️ Select Barangay:</strong></label>
+      <select id="brgySelect" class="dropdown"></select>
+    </section>
+
+    <section class="card">
+      <h2>🏃 Running Candidates</h2>
+      <div id="candidates" class="list"></div>
+    </section>
+
+    <section class="card">
+      <h2>📌 Barangay Issues</h2>
+      <div id="issues" class="list"></div>
+    </section>
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModalBtn">&times;</span>
+      <div id="modalDetails"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
