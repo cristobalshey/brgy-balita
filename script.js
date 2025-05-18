@@ -146,7 +146,7 @@ function render(brgy) {
         <p><strong>${c.position}</strong></p>
         <p>Achievements: ${c.achievements}</p>
         <p>Platform: ${c.platform}</p>
-       <button onclick='showDetails(${JSON.stringify(c)})'>ViewDetails</button>
+       <button onclick='showDetails(${JSON.stringify(c)})'>View Details</button>
       `;
       col.appendChild(card);
     });
